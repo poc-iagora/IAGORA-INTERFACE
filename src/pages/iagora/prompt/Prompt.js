@@ -45,7 +45,7 @@ class Prompt extends React.Component {
 
         // Utilisez axios pour envoyer la requête POST
         if(this.state.url != ""){
-            axios.post('http://localhost:5000/llm', requestData, {
+            axios.post('https://iagora.onrender.com/llm', requestData, {
             headers: {
                 'Content-Type': 'application/json',
             },
@@ -60,11 +60,12 @@ class Prompt extends React.Component {
                 console.error('Erreur lors de la requête POST :', error);
             });
 
-        }else{
-            var requestData = {
+        }
+        else{
+            requestData = {
                 query: this.state.question
             };
-            axios.post('http://localhost:5000/ask', requestData, {
+            axios.post('https://iagora.onrender.com/ask', requestData, {
             headers: {
                 'Content-Type': 'application/json',
             },
