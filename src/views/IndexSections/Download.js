@@ -4,9 +4,9 @@
 * Argon Design System React - v1.1.2
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
+* Product Page: https://www.creative-tim.com/product/
 * Copyright 2023 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
+* Licensed under MIT (https://github.com/creativetimofficial//blob/master/LICENSE.md)
 
 * Coded by Creative Tim
 
@@ -45,7 +45,7 @@ class Download extends React.Component {
                   <Button
                     className="mb-3 mb-sm-0"
                     color="primary"
-                    href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
+                    href="https://www.creative-tim.com/product/?ref=adsr-landing-page"
                   >
                     Download React
                   </Button>
@@ -105,7 +105,7 @@ class Download extends React.Component {
                     </Col>
                     <Col lg="2" xs="4">
                       <a
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
+                        href="https://www.creative-tim.com/product/?ref=adsr-landing-page"
                         id="tooltip308866163"
                         target="_blank"
                       >
@@ -122,7 +122,7 @@ class Download extends React.Component {
                     </Col>
                     <Col lg="2" xs="4">
                       <a
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
+                        href="https://www.creative-tim.com/product/?ref=adsr-landing-page"
                         id="tooltip76119384"
                         target="_blank"
                       >
@@ -138,7 +138,7 @@ class Download extends React.Component {
                     </Col>
                     <Col lg="2" xs="4">
                       <a
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
+                        href="https://www.creative-tim.com/product/?ref=adsr-landing-page"
                         id="tooltip646643508"
                         target="_blank"
                       >

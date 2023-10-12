@@ -4,9 +4,9 @@
 * Argon Design System React - v1.1.2
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
+* Product Page: https://www.creative-tim.com/product/
 * Copyright 2023 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
+* Licensed under MIT (https://github.com/creativetimofficial//blob/master/LICENSE.md)
 
 * Coded by Creative Tim
 
@@ -62,7 +62,7 @@ class Carousel extends React.Component {
                 <Button
                   className="btn-white mt-4"
                   color="default"
-                  href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
+                  href="https://demos.creative-tim.com//#/documentation/alerts?ref=adsr-landing-page"
                 >
                   See all components
                 </Button>

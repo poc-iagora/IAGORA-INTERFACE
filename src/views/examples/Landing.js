@@ -4,9 +4,9 @@
 * Argon Design System React - v1.1.2
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
+* Product Page: https://www.creative-tim.com/product/
 * Copyright 2023 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
+* Licensed under MIT (https://github.com/creativetimofficial//blob/master/LICENSE.md)
 
 * Coded by Creative Tim
 
@@ -86,7 +86,7 @@ class Landing extends React.Component {
                         <Button
                           className="btn-icon mb-3 mb-sm-0"
                           color="info"
-                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
+                          href="https://demos.creative-tim.com//#/documentation/alerts?ref=adsr-landing-page"
                         >
                           <span className="btn-inner--icon mr-1">
                             <i className="fa fa-code" />
@@ -96,7 +96,7 @@ class Landing extends React.Component {
                         <Button
                           className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                           color="default"
-                          href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
+                          href="https://www.creative-tim.com/product/?ref=adsr-landing-page"
                         >
                           <span className="btn-inner--icon mr-1">
                             <i className="ni ni-cloud-download-95" />
@@ -705,7 +705,7 @@ class Landing extends React.Component {
                         block
                         className="btn-white"
                         color="default"
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
+                        href="https://www.creative-tim.com/product/?ref=adsr-landing-page"
                         size="lg"
                       >
                         Download React

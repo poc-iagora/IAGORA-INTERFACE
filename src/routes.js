@@ -12,6 +12,7 @@ import { CardProject } from "pages/iagora/projectfiche/CardProject";
 import { ListProject } from "pages/iagora/projectlist/ListProject";
 import { SuiviProject } from "pages/iagora/dashboard/projectdb/SuiviProject";
 import Prompt  from "pages/iagora/prompt/Prompt";
+import Expert  from "pages/iagora/prompt/Expert";
 import AudioMp3  from "pages/iagora/prompt/AudioMp3";
 import Fichier  from "pages/iagora/prompt/Fichier";
 
@@ -23,6 +24,11 @@ export const routes = [
     {
         path: "/file",
         element: <Fichier/>
+    },
+    
+    {
+        path: "/expert",
+        element: <Expert/>
     },
     {
         path: "/prompt",

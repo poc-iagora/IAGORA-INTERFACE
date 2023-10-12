@@ -4,9 +4,9 @@
 * Argon Design System React - v1.1.2
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
+* Product Page: https://www.creative-tim.com/product/
 * Copyright 2023 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
+* Licensed under MIT (https://github.com/creativetimofficial//blob/master/LICENSE.md)
 
 * Coded by Creative Tim
 
@@ -38,7 +38,6 @@ class Icons extends React.Component {
                 <div className="btn-wrapper">
                   <Button
                     color="primary"
-                    href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/icons?ref=adsr-landing-page"
                   >
                     View demo icons
                   </Button>
@@ -54,7 +53,7 @@ class Icons extends React.Component {
               </Col>
             </Row>
             <div className="blur--hover">
-              <a href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/icons?ref=adsr-landing-page">
+              <a href="https://demos.creative-tim.com//#/documentation/icons?ref=adsr-landing-page">
                 <div className="icons-container blur-item mt-5 on-screen">
                   <i className="icon ni ni-diamond" />
                   <i className="icon icon-sm ni ni-album-2" />
