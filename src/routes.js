@@ -10,6 +10,7 @@ import {RegForm} from "./pages/iagora/form/RegForm";
 import { RegProject } from "pages/iagora/projectreg/RegProject";
 import { CardProject } from "pages/iagora/projectfiche/CardProject";
 import { ListProject } from "pages/iagora/projectlist/ListProject";
+import { CandidatProject } from "pages/iagora/projectlist/CandidatProject";
 import { SuiviProject } from "pages/iagora/dashboard/projectdb/SuiviProject";
 import Prompt  from "pages/iagora/prompt/Prompt";
 import Expert  from "pages/iagora/prompt/Expert";
@@ -33,6 +34,10 @@ export const routes = [
     {
         path: "/prompt",
         element: <Prompt/>
+    },
+    {
+        path: "/candidatprojet",
+        element: <CandidatProject/>
     },
     {
         path: "/suivi-project",
