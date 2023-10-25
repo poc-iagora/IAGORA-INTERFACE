@@ -65,7 +65,7 @@ class DemoNavbar extends React.Component {
   render() {
     return (
       <>
-        <header className="header-global">
+        <header className="header-global chatHeader">
           <Navbar
             className="navbar-main navbar-transparent navbar-light headroom"
             expand="lg"
@@ -116,10 +116,10 @@ class DemoNavbar extends React.Component {
                       <span className="nav-link-inner--text">Etudiant</span>
                     </DropdownToggle>
                     <DropdownMenu>
-                      <DropdownItem to="/landing-page" tag={Link}>
+                      <DropdownItem to="/reg-project" tag={Link}>
                         Soumettre mon projet
                       </DropdownItem>
-                      <DropdownItem to="/profile-page" tag={Link}>
+                      <DropdownItem to="/list-project" tag={Link}>
                         Rechercher des projets
                       </DropdownItem>
                       <DropdownItem to="/login-page" tag={Link}>

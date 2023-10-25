@@ -1,14 +1,15 @@
 import React, { useState } from "react";
-import { IagoraHeader } from "../iagora-header";
 import "../iagora.css";
 import { Card } from "@material-ui/core";
 import { CardBody, CardText, Button, CardHeader } from "reactstrap";
+import DemoNavbar from "components/Navbars/DemoNavbar";
 
 export function CardProject () {
 
     return  (
         <div>
-            <IagoraHeader />
+            <DemoNavbar/>
+
             <div className="container d-flex justify-content-around">
                 <div style={{minWidth: "600px"}}>
                     <p>Fiche de projet</p>

@@ -6,33 +6,37 @@ import { inputList } from "./input-data";
 import { Input } from "../form/input/input";
 import { Button } from "reactstrap";
 import { Bars } from "react-loader-spinner";
+import DemoNavbar from "components/Navbars/DemoNavbar";
 
 function Form ({onSubmit, steps, currentStep, data, onInputChange, inputs, previous}) {
     return (
-        <form onSubmit={onSubmit}>
-            <div className="mt-4">
-                {inputs.filter((input, index) => steps[currentStep - 1] <= index && index < steps[currentStep]).map((input, index) => (
-                    <Input
-                        key={"input-iagora-" + index}
-                        {...input}
-                        required={true}
-                        value={data[input.name] ?? ""}
-                        onChange={onInputChange}
-                    />
-                ))}
-            </div>
-            <Button
-                color="light"
-                type="button"
-                disabled={currentStep === 1}
-                onClick={() => previous()}
-            >
-                Précedent
-            </Button>
-            <Button color="primary" type="submit">
-                {currentStep < steps.length - 1 ? "Suivant" : "Soumettre"}
-            </Button>
-        </form>
+        <>
+            <DemoNavbar/>
+            <form onSubmit={onSubmit}>
+                <div className="mt-4">
+                    {inputs.filter((input, index) => steps[currentStep - 1] <= index && index < steps[currentStep]).map((input, index) => (
+                        <Input
+                            key={"input-iagora-" + index}
+                            {...input}
+                            required={true}
+                            value={data[input.name] ?? ""}
+                            onChange={onInputChange}
+                        />
+                    ))}
+                </div>
+                <Button
+                    color="light"
+                    type="button"
+                    disabled={currentStep === 1}
+                    onClick={() => previous()}
+                >
+                    Précedent
+                </Button>
+                <Button color="primary" type="submit">
+                    {currentStep < steps.length - 1 ? "Suivant" : "Soumettre"}
+                </Button>
+            </form>
+        </>
     )
 }
 
