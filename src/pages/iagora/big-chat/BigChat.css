@@ -1,0 +1,78 @@
+.chatBot {
+    height: calc(100vh - 120px);
+    position: relative;
+}
+
+.chatContent {
+    padding: 20px;
+    height: 70%;
+    overflow-y: scroll;
+}
+
+.sendBox {
+    padding: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.textarea {
+    width: 90%;
+    border: 1px solid #868080;
+    border-radius: 10px;
+    min-height: 50px;
+    padding: 10px;
+}
+
+.send {
+    width: 70px;
+    height: 50px;
+    background: var(--blue);
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    transition: all ease-in-out 200ms;
+    font-size: 20px;
+}
+
+.send:hover {
+    background: white;
+    color: var(--blue);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.send i {
+    margin: auto;
+}
+
+.linkDiv {
+    padding: 20px 20px 0;
+    color: var(--blue);
+}
+
+.linkContainer {
+    padding: 20px;
+    background-color: rgb(251, 251, 251);
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    transition: all ease-in-out 200ms;
+}
+
+.urlInput {
+    background: none;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+    transition: all ease-in-out 200ms;
+}
+
+.linkContainer:hover .urlInput {
+    display: block;
+}
+
+.urlInput:focus, .urlInput:not(:placeholder-shown) {
+    display: block;
+}
+

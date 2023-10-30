@@ -1,0 +1,50 @@
+.container-page {
+    position: relative;
+}
+
+.bubble {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    background: var(--blue);
+    border-radius: 100px;
+    top: 100vh;
+    left: 100vw;
+    transform: translate(calc(-100% - 20px), calc(-100% - 20px));
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    cursor: pointer;
+    transition: all ease-in-out 200ms;
+}
+
+.bubble i {
+    color: white;
+    font-size: 30px;
+    margin: auto;
+}
+
+.bubble:hover, .bubble-active {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: white;
+}
+
+.bubble:hover i, .bubble-active i{
+    color: var(--blue);
+}
+
+.chat-container {
+    position: fixed;
+    top: 50px;
+    left: 100%;
+    width: 350px;
+    z-index: 200;
+    transition: all ease-in-out 200ms;
+}
+
+.chat-visible {
+    transform: translateX(calc(-100% - 20px));
+}
+
+.chat-box {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
