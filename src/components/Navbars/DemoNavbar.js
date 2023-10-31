@@ -104,12 +104,34 @@ class DemoNavbar extends React.Component {
                   </Row>
                 </div>
                 <Nav className="navbar-nav-hover align-items-lg-center" navbar>
-                      <nav>
-                        <a href="/audio">
-                          <i className="ni ni-collection d-lg-none mr-1" />
-                          <span className="nav-link-inner--text">Datalab</span>
-                        </a>
-                      </nav>
+                  <UncontrolledDropdown nav>
+                    <DropdownToggle nav>
+                      <i className="ni ni-collection d-lg-none mr-1" />
+                      <span className="nav-link-inner--text">Chat</span>
+                    </DropdownToggle>
+                    <DropdownMenu>
+                      <DropdownItem to="/Prompt" tag={Link}>
+                        Tutorat virtuel
+                      </DropdownItem>
+                      <DropdownItem to="/Prompt2" tag={Link}>
+                        Tutorat avec des experts
+                      </DropdownItem>
+                    </DropdownMenu>
+                  </UncontrolledDropdown>
+                  <UncontrolledDropdown nav>
+                    <DropdownToggle nav>
+                      <i className="ni ni-collection d-lg-none mr-1" />
+                      <span className="nav-link-inner--text">Datalab</span>
+                    </DropdownToggle>
+                    <DropdownMenu>
+                      <DropdownItem to="/list-project" tag={Link}>
+                        Rechercher des projets
+                      </DropdownItem>
+                      <DropdownItem to="/dashboard" tag={Link}>
+                        Tableau de bord
+                      </DropdownItem>
+                    </DropdownMenu>
+                  </UncontrolledDropdown>
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-collection d-lg-none mr-1" />
@@ -118,9 +140,6 @@ class DemoNavbar extends React.Component {
                     <DropdownMenu>
                       <DropdownItem to="/reg-project" tag={Link}>
                         Soumettre mon projet
-                      </DropdownItem>
-                      <DropdownItem to="/list-project" tag={Link}>
-                        Rechercher des projets
                       </DropdownItem>
                       <DropdownItem to="/candidat-projet" tag={Link}>
                         Correspondance projet-candidat
@@ -142,7 +161,7 @@ class DemoNavbar extends React.Component {
                       <DropdownItem to="/profile-page" tag={Link}>
                         Financer 
                       </DropdownItem>
-                      <DropdownItem to="/login-page" tag={Link}>
+                      <DropdownItem to="/suivi-project" tag={Link}>
                         Suivi projets
                       </DropdownItem>
                     </DropdownMenu>

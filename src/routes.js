@@ -10,6 +10,7 @@ import {RegForm} from "./pages/iagora/form/RegForm";
 import { RegProject } from "pages/iagora/projectreg/RegProject";
 import { CardProject } from "pages/iagora/projectfiche/CardProject";
 import { ListProject } from "pages/iagora/projectlist/ListProject";
+import { Dashboard } from "pages/iagora/dashboard/projectdb/Dashboard";
 import { ListEtudiant } from "pages/iagora/projectlist/ListEtudiant";
 import { CandidatProject } from "pages/iagora/projectlist/CandidatProject";
 import { SuiviProject } from "pages/iagora/dashboard/projectdb/SuiviProject";
@@ -45,6 +46,10 @@ export const routes = [
         element: <SuiviProject />
     },
     {
+        path: "/dashboard",
+        element: <Dashboard />
+    },
+    {
         path: "/list-project",
         element: <ListProject />
     },
@@ -70,7 +75,7 @@ export const routes = [
     },
     {
         path: "/",
-        element: <Prompt/>
+        element: <ListProject/>
     },
     {
         path: "/landing-page",
@@ -90,6 +95,6 @@ export const routes = [
     },
     {
         path: "/chat",
-        element: <ChatPage />
+        element: <Prompt />
     }
 ]
